@@ -329,7 +329,7 @@ a{
 	height: 50px;
 	text-decoration: none;
 }
-.expert-list:hover .info-btn{
+.expert-item:hover .info-btn{
 	transform: translateY(0);
 }
 .expert-container .expert-navigation{
