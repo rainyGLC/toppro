@@ -286,6 +286,7 @@ a{
 	font-size: 12px;
 	border:1px solid #7c7e91;
 	border-radius: 1px;
+	font-style: normal;
 }
 .expert-info .info-title{
 	line-height: 20px;
@@ -469,22 +470,53 @@ a{
 	border-bottom:2px solid #fff;
 	border-left:2px solid #fff;
 	color: #667080;
+	background-color: #eef2f9;
+}
+.feature-container .feature-list li:first-child{
+	width: 285px;
+	text-align:left;
+	padding-left: 30px;
+	color: #305798;
+}
+.feature-container .feature-list li:first-child .num{
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	text-align: center;
+	line-height: 23px;
+	border-radius: 50%;
+	border:1px solid #c2cde0;
+	font-size: 13px;
+	margin-right: 12px;
+	background: #fff
+}
+.feature-container .feature-list li:first-child span{
+	vertical-align: middle;
+	line-height: 25px;
+}
+
+.feature-container .feature-list li:last-child{
+	width: 235px;
+	border-right: 2px solid #fff;
+}
+.feature-container .feature-list li:nth-child(2){
+	width: 250px;
+	font-weight: 600;
+	background-color: #dae0e8;
 }
 .feature-list ul{
 	list-style:none;
 }
-.feature-list .list-header li{
+.list-header .terms{
 	height: 70px;
 	border-top:2px solid #fff;
 	line-height: 66px;
 	text-align: center;
 	color: #3f464b;
-}
-.feature-list .list-header li:nth-child(2){
-	background-color: #c1cce2;
-}
-.feature-list .list-header li .terms{
 	background-color: #dde3f0;
+}
+.feature-list .list-header .terms:nth-child(2){
+	background-color: #c1cce2;
 }
 .page-effect{
 	padding-top: 70px;
