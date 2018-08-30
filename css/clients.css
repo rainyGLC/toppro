@@ -277,13 +277,6 @@ a{
 	width: 235px;
 	border-right: 2px solid #fff;
 }
-.feature-list ul li .icno-one{
-	background: url(../img/icno-three.png);
-	background-size: 20px;
-	background-position: center;
-	background-color: #cdecd8;
-}
-
 .feature-list .feature-header .item{
 	height: 70px;
 	border-top:2px solid #fff;
@@ -294,7 +287,6 @@ a{
 .feature-list .feature-header li:nth-child(2){
 	background: #c1cce2;
 }
-
 .cl-procedure{
 	padding-top:70px;
 	padding-bottom:80px;
