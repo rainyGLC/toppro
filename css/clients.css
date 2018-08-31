@@ -285,8 +285,46 @@ a{
 	background: #e5eaf4;
 }
 .feature-list .feature-header li:nth-child(2){
+	position:relative;
 	background: #c1cce2;
 }
+.feature-list .feature-num .feature-green{
+	position: relative;
+	background: #cdecd8;
+}
+.feature-list .feature-num .feature-green .icno-one{
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	position: absolute;
+	top:18px;
+	left:97px;
+	background-image: url(../img/ture.jpg);
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size: 32px;
+	overflow: hidden;
+}
+.feature-list .feature-num .feature-red{
+	position: relative;
+	background: #edc7cc;
+}
+.feature-num .feature-red .icno{
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	position: absolute;
+	top:18px;
+	left:97px;
+	background-image: url(../img/fault.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:32px;
+	overflow:hidden; 
+}
+
 .cl-procedure{
 	padding-top:70px;
 	padding-bottom:80px;
